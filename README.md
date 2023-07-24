@@ -19,7 +19,7 @@ the plugin for the people who cannot use nerdfont 🤓
 ### packer.nvim
 
 ```lua
-use("dullmode/byebye-nerdfont.nvim")
+use("dullmode/bye-nerdfont.nvim")
 ```
 
 ## :rocket: Usage
@@ -29,7 +29,7 @@ use("dullmode/byebye-nerdfont.nvim")
 you can choose mode from `emoji` and `simple`
 
 ```lua
-require("byebye-nerdfont").setup({
+require("bye-nerdfont").setup({
 	mode = "emoji",
 })
 ```
@@ -39,8 +39,8 @@ require("byebye-nerdfont").setup({
 overwrite nvim-web-devicons
 
 ```lua
-local icons = require("byebye-nerdfont").get_icons()
-local default_icon = require("byebye-nerdfont").get_default_icon()
+local icons = require("bye-nerdfont").get_icons()
+local default_icon = require("bye-nerdfont").get_default_icon()
 -- overwrite nerdfont
 require("nvim-web-devicons").set_icon({
 	icons
@@ -55,7 +55,7 @@ require("nvim-web-devicons").set_default_icon(
 overwrite nvim-tree.lua icons
 
 ```lua
-local nvim_tree_icons = require("byebye-nerdfont").get_nvim_tree_icons()
+local nvim_tree_icons = require("bye-nerdfont").get_nvim_tree_icons()
 
 require("nvim-tree").setup({
 	on_attach = my_on_attach,
@@ -103,7 +103,7 @@ overwrite lualine icons.
 components which have icons are `diff`, `buffers` `diagnostics`, `fileformat`, `filename`, 
 
 ```lua
-local lualine_icons = require("byebye-nerdfont").get_lualine_icons()
+local lualine_icons = require("bye-nerdfont").get_lualine_icons()
 require("lualine").setup({
 	sections = {
 		lualine_b = {
