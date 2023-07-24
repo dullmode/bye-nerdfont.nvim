@@ -100,7 +100,7 @@ require("bufferline").setup({
 
 overwrite lualine icons.
 
-components which have icons are `diff`, `buffers` `diagnostics`, `fileformat`, `filename`, 
+components which have icons are `diff`, `buffers` `diagnostics`, `fileformat`, `filename`,
 
 ```lua
 local lualine_icons = require("bye-nerdfont").get_lualine_icons()

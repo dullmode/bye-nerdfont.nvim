@@ -274,16 +274,16 @@ M.nvim_tree = {
 				default = "🗎 ",
 				symlink = "⧟ ",
 				bookmark = "✭ ",
-				modified = "✛",
+				modified = "✛ ",
 				folder = {
 					arrow_closed = "⏵",
 					arrow_open = "⏷",
-					default = "⦾ ",
-					open = "⦿ ",
-					empty = "⨂ ",
-					empty_open = "⨂ ",
-					symlink = "▣",
-					symlink_open = "▣",
+					default = "☰ ",
+					open = "☳ ",
+					empty = "☷ ",
+					empty_open = "☷ ",
+					symlink = "☵ ",
+					symlink_open = "☵ ",
 				},
 				git = {
 					unstaged = "🄰 ",
@@ -299,10 +299,10 @@ M.nvim_tree = {
 	},
 	diagnostics = {
 		icons = {
-			error = "⍌ ",
-			warning = "⍌ ",
-			info = "⍓ ",
-			hint = "⍓ ",
+			error = "🗲 ",
+			warning = "☂ ",
+			info = "☃ ",
+			hint = "☀️ ",
 		},
 	},
 }
@@ -338,16 +338,16 @@ M.lualine_icons = {
 			symbols = {
 				modified = " ●",
 				alternate_file = "#",
-				directory = " ⌬ ",
+				directory = "☰ ",
 			},
 		},
 		diagnostics = {
 			"diagnostics",
 			symbols = {
-				error = "⍌ ",
-				warn = "⍌ ",
-				info = "⍓ ",
-				hint = "⍓ ",
+				error = "🗲 ",
+				warn = "☂ ",
+				info = "☃ ",
+				hint = "☀️ ",
 			},
 		},
 		diff = {
